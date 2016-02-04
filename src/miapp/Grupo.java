@@ -1,11 +1,11 @@
 package miapp;
+
+import javax.swing.JOptionPane;
 /**
- * Clase que permite agrupar contactos creados.
+ *  Clase que permite agrupar contactos creados.
  * @author Miguel Gonzalez
  * @version 394.340
  */
-import javax.swing.JOptionPane;
-
 public class Grupo {
 
     private String nombreGrupo;
