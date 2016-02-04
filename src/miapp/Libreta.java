@@ -44,6 +44,10 @@ public class Libreta {
         return nombre;
     }
 
+    /**
+     * Metodo para comprobar si hay hueco libres en la libreta.
+     * @return En caso de que haya huecos, retorna i, si no, devuelve -1.
+     */
     public int cualLibre() {
         int i;
         for (i = 0; i < arrayGrupo.length; i++) {
