@@ -1,5 +1,9 @@
 package miapp;
-
+/**
+ * Clase que recoge los datos de las personas que se añadiran.
+ * @author Miguel Gonzalez
+ * @version 9239290.292
+ */
 public class Contacto {
 
     private String nombre, apellido, email, telefono;

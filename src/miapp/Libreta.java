@@ -1,7 +1,11 @@
 package miapp;
 
 import javax.swing.JOptionPane;
-
+/**
+ * Clase donde se recogen los contactos y permite realizar modificaciones.
+ * @author Miguel Gonzalez
+ * @version 6.3
+ */
 public class Libreta {
 
     private String nombre, dni;

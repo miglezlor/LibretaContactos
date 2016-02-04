@@ -1,5 +1,9 @@
 package miapp;
-
+/**
+ * Clase que recoge la informacion del usuario.
+ * @author Miguel Gonzalez
+ * @version 930.3949
+ */
 public class Propietario {
 
     private String nombreProp;
