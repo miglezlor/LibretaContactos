@@ -38,6 +38,10 @@ public class Libreta {
         this.arrayGrupo = arrayGrupo;
     }
 
+    /**
+     * Añade un contacto.
+     * @return
+     */
     public String engadir() {
         nombre = JOptionPane.showInputDialog("Introduce nombre del contacto");
         dni = JOptionPane.showInputDialog("Introduce el DNI del contacto");
@@ -59,6 +63,9 @@ public class Libreta {
         return -1;
     }
 
+    /**
+     *
+     */
     public void listar() {
     }
 

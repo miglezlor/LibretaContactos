@@ -36,12 +36,21 @@ public class Propietario {
         this.pass = pass;
     }
     
+    /**
+     *
+     */
     public void exportar() {
     }
 
+    /**
+     *
+     */
     public void borrar() {
     }
 
+    /**
+     *
+     */
     public void crear() {
     }
 }
