@@ -55,10 +55,10 @@ public class Libreta {
     public int cualLibre() {
         int i;
         for (i = 0; i < arrayGrupo.length; i++) {
-            if (arrayGrupo[i].getNombreGrupo().equals(""))
-                ;
+            if (arrayGrupo[i].getNombreGrupo().equals("")){
             JOptionPane.showMessageDialog(null, "Hay hueco");
             return i;
+            }
         }
         return -1;
     }
